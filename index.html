@@ -1,0 +1,71 @@
+<html>
+<div class="header">
+    <h1>This is the future's shopping list.™</h1>
+    <h2>Let's get started 🡓</h2>
+</div>
+
+<head>
+    <title>The future's shopping list</title>
+    <script src="shopping.js"></script>
+</head>
+
+<style>
+    /*h1 {
+          color: rgb(11, 11, 77);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 200%;
+        }
+        h2 {
+          color: rgb(99, 40, 153);
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          font-size: 120%;
+        }
+        */
+    body {
+        font-family: Arial;
+        margin: 0;
+    }
+
+    /* Header/Logo Title */
+    .header {
+        padding: 10px;
+        text-align: left;
+        background: #85ff90;
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+</style>
+
+<body>
+    <h1></h1>
+    <body style="background-color:rgb(233, 233, 233);"></body>
+    
+    <span>⠀🛒⠀</span><span>What do you need?</span>
+    <input id="product" type="text">
+    <span>🔢 How much do you need?</span>
+    <input id="amount" type="number">
+    <span>⚖️ What unit?</span>
+    <input id="unit" type="text">
+    <span>🏷️ How much does it cost in $?</span>
+    <input id="cost" type="number">
+    <button onclick="print('print')">Add it to my list 📝</button>
+    <br />
+
+    <ul id="result">
+    </ul>
+    ⠀Total price: <span id="fullcost" >0</span> $. 
+    <br />
+    ⠀Your total in HUF is: <span id="hufprice" >0</span> Ft. 
+    <br />
+    <br />
+    
+    <p>
+        ⠀Was this webpage helpful? Click the picture for more information!  😇⠀ 
+        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley">
+        <img src="https://www.pikpng.com/pngl/b/420-4206046_twitter-clipart.png" width="120px", height="46px">
+        </a>
+       </p>
+
+</body>
+</html>
